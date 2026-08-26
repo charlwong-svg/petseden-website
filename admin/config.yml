@@ -1,0 +1,57 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "promos"
+    label: "Promotions"
+    files:
+      - file: "content/promos.json"
+        label: "Promo Banners (Grooming & Courses)"
+        name: "promos"
+        fields:
+          - label: "Grooming Promo"
+            name: "grooming"
+            widget: "object"
+            hint: "The end date rolls forward to the last day of the current month automatically — you don't need to edit a date anywhere."
+            fields:
+              - { label: "Amount / Headline (e.g. $10 OFF)", name: "amount", widget: "string" }
+              - { label: "Note (e.g. for First-Time Clients)", name: "note", widget: "string" }
+              - { label: "Call-to-action (HTML allowed)", name: "ctaHtml", widget: "string" }
+              - { label: "Text before the date (e.g. Offer valid till)", name: "validPrefix", widget: "string" }
+              - { label: "Terms note", name: "termsNote", widget: "string" }
+          - label: "Courses Promo"
+            name: "courses"
+            widget: "object"
+            hint: "The end date rolls forward to the last day of the current month automatically — you don't need to edit a date anywhere."
+            fields:
+              - { label: "Amount / Headline (e.g. 10% OFF)", name: "amount", widget: "string" }
+              - { label: "Note (e.g. for Sign Ups)", name: "note", widget: "string" }
+              - { label: "Call-to-action (HTML allowed)", name: "ctaHtml", widget: "string" }
+              - { label: "Text before the date (e.g. Before)", name: "validPrefix", widget: "string" }
+              - { label: "Terms note", name: "termsNote", widget: "string" }
+
+  - name: "join_us"
+    label: "Join Us Page"
+    files:
+      - file: "content/join-us.json"
+        label: "Job Listings"
+        name: "join_us"
+        fields:
+          - { label: "Intro paragraph", name: "intro", widget: "text" }
+          - label: "Jobs"
+            name: "jobs"
+            widget: "list"
+            fields:
+              - { label: "Job Title", name: "title", widget: "string" }
+              - { label: "Intro sentence", name: "intro", widget: "text" }
+              - { label: "Duties heading", name: "duties_label", widget: "string", default: "What you'll do:" }
+              - { label: "Duties", name: "duties", widget: "list", field: { label: "Item", name: "item", widget: "string" } }
+              - { label: "Requirements heading", name: "requirements_label", widget: "string", default: "What we're looking for:" }
+              - { label: "Requirements", name: "requirements", widget: "list", field: { label: "Item", name: "item", widget: "string" } }
+              - { label: "Extra section heading (optional)", name: "extra_label", widget: "string", required: false }
+              - { label: "Extra section items (optional)", name: "extra", widget: "list", required: false, field: { label: "Item", name: "item", widget: "string" } }
+          - { label: "Footnote (how to apply)", name: "footnote", widget: "text" }

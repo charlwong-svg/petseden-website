@@ -1,0 +1,60 @@
+{
+  "intro": "Pets Eden is searching for dedicated and passionate individuals who love animals as much as we do. For those that thrive in a work environment that revolves around the care of our furry friends, being a part of our dynamic team is a start to an extremely rewarding career. While some experience is preferred, we welcome anyone from any background to apply for the various positions available below, so long as you are willing to make animals a part of your everyday work life.",
+  "jobs": [
+    {
+      "title": "Customer Service Associate (Full-Time)",
+      "intro": "We're looking for a friendly, animal-loving customer service associate to be the welcoming face of our grooming shop!",
+      "duties_label": "What you'll do:",
+      "duties": [
+        "Greet clients and their pets, checking them in/out for appointments",
+        "Answer phone calls, emails, and messages professionally and warmly",
+        "Schedule and manage grooming appointments",
+        "Handle payments and basic point-of-sale tasks",
+        "Address client questions or concerns with patience and care",
+        "Help keep the front desk and waiting area clean and welcoming",
+        "Assist groomers with light pet handling as needed (leashing, calming nervous pets, etc.)"
+      ],
+      "requirements_label": "What we're looking for:",
+      "requirements": [
+        "Excellent verbal communication skills — comfortable talking with a wide range of people",
+        "Genuine love for animals and comfort being around dogs/cats of all sizes and temperaments",
+        "Friendly, patient, and calm under pressure",
+        "Strong organizational skills (juggling a schedule, phones, and walk-ins)",
+        "Reliable and punctual",
+        "Prior customer service or retail experience a plus"
+      ]
+    },
+    {
+      "title": "Pet Transport Driver (Independent Contractor)",
+      "intro": "We're looking for a responsible, animal-loving independent driver with their own vehicle to safely transport pets between clients' homes and our grooming shop on a contract basis.",
+      "duties_label": "What you'll do:",
+      "duties": [
+        "Pick up pets from clients' homes and bring them to the shop for grooming appointments",
+        "Safely secure pets during transport (in travel crates)",
+        "Return pets home after grooming is complete",
+        "Communicate with clients about pickup/drop-off times and any delays",
+        "Handle pets calmly and confidently, including nervous or anxious animals",
+        "Keep your vehicle clean, sanitized, and pet-safe between trips",
+        "Follow a daily pickup/drop-off schedule and plan your route efficiently"
+      ],
+      "requirements_label": "Requirements:",
+      "requirements": [
+        "Must own a reliable vehicle suitable for pet transport (clean, well-maintained, adequate space for crates/carriers)",
+        "Valid driver's license with a clean driving record",
+        "Valid vehicle insurance and registration",
+        "Comfortable handling dogs/cats of all sizes and temperaments",
+        "Punctual, reliable, and safety-conscious",
+        "Good communication skills for coordinating with clients and shop staff",
+        "Ability to lift/carry pets and pet carriers as needed"
+      ],
+      "extra_label": "Engagement details:",
+      "extra": [
+        "This is an independent contractor position (not an employee role)",
+        "Pay per trip/route (rate to be discussed)",
+        "Ad-hoc bookings",
+        "Driver responsible for own vehicle maintenance, fuel, and insurance"
+      ]
+    }
+  ],
+  "footnote": "If you are interested in applying for any of the above positions, please email your resume, portfolio & asking salary to charlwong@gmail.com."
+}
