@@ -2,7 +2,7 @@
   "grooming": {
     "amount": "$10 OFF",
     "note": "for First-Time Clients",
-    "ctaHtml": "Book via WhatsApp or <a href=\"/contact-us/\">Book Online</a> to qualify",
+    "ctaHtml": "Book via WhatsApp or <a href=\"/book-online1/\">Book Online</a> to qualify",
     "validPrefix": "Offer valid till",
     "termsNote": "*Terms & Conditions apply"
   },
