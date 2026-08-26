@@ -248,11 +248,19 @@ footer.site-footer a:hover{color:var(--coral)}
   color:var(--coral);font-weight:700;margin-bottom:10px;
 }
 .promo-modal-amount{
+  margin:0 0 14px;
+}
+.promo-modal-amount-badge{
+  display:inline-block;
   font-family:'Manrope',sans-serif;
-  font-size:2.4rem;font-weight:800;
-  color:var(--teal-deep);
-  margin:0 0 4px;
-  line-height:1.1;
+  font-size:2.8rem;font-weight:800;
+  color:#fff;
+  background:linear-gradient(135deg,var(--coral),var(--coral-deep));
+  padding:6px 26px;
+  border-radius:14px;
+  line-height:1.15;
+  box-shadow:0 10px 22px -8px rgba(229,87,63,.55);
+  transform:rotate(-2deg);
 }
 .promo-modal-note{
   font-size:1.05rem;font-weight:600;
@@ -267,6 +275,10 @@ footer.site-footer a:hover{color:var(--coral)}
   width:100%;
   padding:14px 24px;
   font-size:1rem;
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  gap:9px;
 }
 .promo-modal-terms{
   font-size:.75rem;color:var(--ink-soft);
