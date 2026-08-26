@@ -70,7 +70,11 @@ nav.main-nav a.top-link{
 nav.main-nav a.top-link:hover, nav.main-nav li.active>a.top-link{background:var(--teal-tint);color:var(--teal-deep)}
 .submenu{
   display:none;position:absolute;top:100%;left:0;background:#fff;min-width:220px;
-  border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);padding:6px;margin-top:6px;
+  border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow);padding:6px;margin-top:0;
+  padding-top:12px;
+}
+.submenu::before{
+  content:'';position:absolute;top:-8px;left:0;right:0;height:8px;
 }
 nav.main-nav li:hover .submenu, nav.main-nav li:focus-within .submenu{display:block}
 .submenu a{display:block;padding:9px 12px;border-radius:6px;font-size:.9rem;color:var(--ink)}
@@ -89,8 +93,11 @@ nav.main-nav li:hover .submenu, nav.main-nav li:focus-within .submenu{display:bl
   nav.main-nav li:hover .submenu, nav.main-nav li:focus-within .submenu{display:block}
 }
 
-/* promo banner */
+/* promo banner — replaced by the popup modal, kept in the HTML/JS but hidden */
 .promo-banner{
+  display:none;
+}
+.promo-banner-unused-rules{
   background:linear-gradient(90deg,var(--teal),var(--teal-deep));
   color:#fff;text-align:center;padding:18px 20px;
   position:relative;
