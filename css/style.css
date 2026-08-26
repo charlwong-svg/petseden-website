@@ -93,11 +93,8 @@ nav.main-nav li:hover .submenu, nav.main-nav li:focus-within .submenu{display:bl
   nav.main-nav li:hover .submenu, nav.main-nav li:focus-within .submenu{display:block}
 }
 
-/* promo banner — replaced by the popup modal, kept in the HTML/JS but hidden */
+/* promo banner — shown alongside the popup, as a reference after it's dismissed */
 .promo-banner{
-  display:none;
-}
-.promo-banner-unused-rules{
   background:linear-gradient(90deg,var(--teal),var(--teal-deep));
   color:#fff;text-align:center;padding:18px 20px;
   position:relative;
