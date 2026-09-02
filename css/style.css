@@ -2,17 +2,17 @@
 
 :root{
   --white:#FFFFFF;
-  --bg-soft:#F8F6FB;
-  --teal:#4FB99B;
-  --teal-deep:#2E7D68;
-  --teal-tint:#E7F6F0;
-  --coral:#A88FDB;
-  --coral-deep:#8A6BC4;
-  --ink:#2B2733;
-  --ink-soft:#6B6577;
-  --line:#E6E1EF;
+  --bg-soft:#F0F8FC;
+  --teal:#2FA8DE;
+  --teal-deep:#1C6E99;
+  --teal-tint:#E6F5FC;
+  --coral:#FF8A5B;
+  --coral-deep:#E86F3F;
+  --ink:#1E2630;
+  --ink-soft:#5B6875;
+  --line:#DDEBF3;
   --radius:14px;
-  --shadow:0 10px 30px -12px rgba(168,143,219,.22);
+  --shadow:0 10px 30px -12px rgba(47,168,222,.22);
 }
 
 *{box-sizing:border-box}
@@ -255,7 +255,7 @@ table.price-table{
 /* ===== promo popup ===== */
 .promo-modal-overlay{
   position:fixed;inset:0;z-index:100;
-  background:rgba(58,44,79,.5);
+  background:rgba(28,110,153,.5);
   display:flex;align-items:center;justify-content:center;
   padding:20px;
   opacity:0;
