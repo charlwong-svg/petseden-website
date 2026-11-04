@@ -1,0 +1,51 @@
+# Pets Eden - Netlify configuration
+# Place this file at the ROOT of the repo (same level as index.html).
+
+# ---------------------------------------------------------------
+# Public site: every page
+# ---------------------------------------------------------------
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()"
+    Content-Security-Policy = """\
+default-src 'none'; \
+script-src 'self'; \
+style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
+font-src https://fonts.gstatic.com; \
+img-src 'self' data: https://static.wixstatic.com; \
+connect-src 'self'; \
+frame-src https://pets-eden-crm.netlify.app; \
+manifest-src 'self'; \
+base-uri 'self'; \
+form-action 'self'; \
+frame-ancestors 'none'; \
+object-src 'none'; \
+upgrade-insecure-requests"""
+
+# ---------------------------------------------------------------
+# Decap CMS admin (/admin/) needs more room: CMS script from unpkg,
+# Netlify Identity widget, GitHub/Netlify APIs, and inline script/styles.
+# Kept to /admin/* only so the public site stays strict.
+# ---------------------------------------------------------------
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    Content-Security-Policy = """\
+default-src 'self'; \
+script-src 'self' 'unsafe-inline' 'unsafe-eval' https://unpkg.com https://identity.netlify.com; \
+style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://unpkg.com; \
+font-src 'self' data: https://fonts.gstatic.com; \
+img-src 'self' data: blob: https:; \
+connect-src 'self' https://api.github.com https://api.netlify.com https://identity.netlify.com https://unpkg.com; \
+frame-src 'self' blob: https://identity.netlify.com; \
+worker-src 'self' blob:; \
+base-uri 'self'; \
+form-action 'self'; \
+frame-ancestors 'self'; \
+object-src 'none'"""
