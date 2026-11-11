@@ -332,3 +332,8 @@ table.price-table{
   font-size:.75rem;color:var(--ink-soft);
   margin:14px 0 0;
 }
+
+.price-table tr.note-row td{padding:0 14px 14px;border-bottom:1px solid var(--line)}
+.price-table tr.note-row + tr td{border-top:0}
+.price-table .breed-note{display:block;position:sticky;left:14px;box-sizing:border-box;width:min(calc(100vw - 100px),100%);padding:10px 14px;font-weight:400;font-size:.85rem;line-height:1.5;color:var(--ink-soft);background:#FFF4EC;border-left:3px solid #FF8A5B;border-radius:8px}
+.price-table .breed-note b{color:var(--ink);font-weight:700}
