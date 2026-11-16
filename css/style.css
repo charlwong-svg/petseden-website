@@ -337,3 +337,33 @@ table.price-table{
 .price-table tr.note-row + tr td{border-top:0}
 .price-table .breed-note{display:block;position:sticky;left:14px;box-sizing:border-box;width:min(calc(100vw - 100px),100%);padding:10px 14px;font-weight:400;font-size:.85rem;line-height:1.5;color:var(--ink-soft);background:#FFF4EC;border-left:3px solid #FF8A5B;border-radius:8px}
 .price-table .breed-note b{color:var(--ink);font-weight:700}
+
+/* sponsorship program */
+.steps{list-style:none;counter-reset:step;display:grid;grid-template-columns:repeat(5,1fr);gap:16px;padding:0;margin:28px 0 0}
+.steps li{counter-increment:step;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:18px}
+.steps li::before{content:counter(step);display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;background:var(--coral);color:#fff;font-weight:800;margin-bottom:10px}
+.steps h4{color:var(--teal-deep);margin-bottom:.4em}
+.steps p{font-size:.92rem;color:var(--ink-soft);margin:0}
+@media (max-width:900px){.steps{grid-template-columns:1fr 1fr}}
+@media (max-width:600px){.steps{grid-template-columns:1fr}}
+.tick-list{list-style:none;padding:0;margin:0 0 1em}
+.tick-list li{position:relative;padding-left:26px;margin-bottom:.5em;color:var(--ink-soft)}
+.tick-list li::before{content:"\2713";position:absolute;left:0;color:var(--coral);font-weight:800}
+.form-grid{align-items:start}
+.form-card{scroll-margin-top:90px}
+.form-card form{margin-top:18px}
+.field{margin:0 0 16px;padding:0;border:0;min-width:0}
+.field label,.field legend{display:block;font-weight:600;font-size:.92rem;margin-bottom:6px;color:var(--ink);padding:0}
+.field .hint{font-weight:400;color:var(--ink-soft);font-size:.82rem}
+.field input[type=text],.field input[type=tel],.field input[type=number],.field select,.field textarea{
+  width:100%;box-sizing:border-box;padding:11px 12px;border:1px solid #BFD6E4;border-radius:10px;
+  font:inherit;font-size:1rem;background:#fff;color:var(--ink)}
+.field textarea{min-height:120px;resize:vertical}
+.field textarea.short{min-height:80px}
+.field input:focus,.field select:focus,.field textarea:focus{outline:3px solid var(--coral);outline-offset:1px;border-color:var(--coral)}
+.field label.radio{display:flex;gap:10px;align-items:flex-start;font-weight:400;margin-bottom:8px}
+.check{display:flex;gap:10px;align-items:flex-start;font-size:.88rem;color:var(--ink-soft);margin:6px 0 18px}
+.check input{margin-top:3px;flex-shrink:0}
+.form-card .btn{width:100%;text-align:center}
+.cond[hidden]{display:none}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
