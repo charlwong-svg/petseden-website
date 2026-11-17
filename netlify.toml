@@ -12,19 +12,30 @@
     X-Frame-Options = "DENY"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()"
-    # Google Tag Manager (container GTM-PRX4G6PZ) needs googletagmanager.com
-    # and the google-analytics.com endpoints below. The sha256 value is the
-    # fingerprint of the small inline gtag block in the <head> of every page:
-    # if that snippet is edited by even one character, the hash must be
-    # regenerated or analytics will stop collecting.
+    # Google Tag Manager (container GTM-PRX4G6PZ), Google Analytics and
+    # Google Ads conversion tracking (AW-958436335).
+    #
+    # The Google Ads domains follow Google's published CSP list at
+    # developers.google.com/tag-platform/security/guides/csp, plus
+    # googleads.g.doubleclick.net in script-src, which that list omits but
+    # which the conversion script is actually served from.
+    #
+    # Google serves conversion pings from the visitor's local Google domain
+    # and each one must be listed separately, so .com and .com.sg are here.
+    # If Tag Assistant later reports a blocked request to another
+    # www.google.<TLD>, add that domain to img-src and connect-src.
+    #
+    # The sha256 value is the fingerprint of the small inline gtag block in
+    # the <head> of every page: if that snippet is edited by even one
+    # character, the hash must be regenerated or analytics stops collecting.
     Content-Security-Policy = """\
 default-src 'none'; \
-script-src 'self' https://www.googletagmanager.com 'sha256-jYHg7tXSuuVUqjy+JeRT8vyG97+Spkw5IFHdQEBbmrw='; \
+script-src 'self' https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.com.sg 'sha256-jYHg7tXSuuVUqjy+JeRT8vyG97+Spkw5IFHdQEBbmrw='; \
 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
 font-src https://fonts.gstatic.com; \
-img-src 'self' data: https://static.wixstatic.com https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; \
-connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://tagassistant.google.com; \
-frame-src https://pets-eden-crm.netlify.app https://www.googletagmanager.com https://tagassistant.google.com; \
+img-src 'self' data: https://static.wixstatic.com https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.com.sg; \
+connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://tagassistant.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://ad.doubleclick.net https://www.google.com https://www.google.com.sg; \
+frame-src https://pets-eden-crm.netlify.app https://www.googletagmanager.com https://tagassistant.google.com https://td.doubleclick.net https://bid.g.doubleclick.net; \
 manifest-src 'self'; \
 base-uri 'self'; \
 form-action 'self'; \
