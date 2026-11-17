@@ -12,13 +12,18 @@
     X-Frame-Options = "DENY"
     Referrer-Policy = "strict-origin-when-cross-origin"
     Permissions-Policy = "accelerometer=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), usb=(), interest-cohort=()"
+    # Google Tag Manager (container GTM-PRX4G6PZ) needs googletagmanager.com
+    # and the google-analytics.com endpoints below. The sha256 value is the
+    # fingerprint of the small inline gtag block in the <head> of every page:
+    # if that snippet is edited by even one character, the hash must be
+    # regenerated or analytics will stop collecting.
     Content-Security-Policy = """\
 default-src 'none'; \
-script-src 'self'; \
+script-src 'self' https://www.googletagmanager.com 'sha256-jYHg7tXSuuVUqjy+JeRT8vyG97+Spkw5IFHdQEBbmrw='; \
 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
 font-src https://fonts.gstatic.com; \
-img-src 'self' data: https://static.wixstatic.com; \
-connect-src 'self'; \
+img-src 'self' data: https://static.wixstatic.com https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; \
+connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; \
 frame-src https://pets-eden-crm.netlify.app; \
 manifest-src 'self'; \
 base-uri 'self'; \
