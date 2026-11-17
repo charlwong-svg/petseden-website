@@ -15,6 +15,16 @@ function petsEdenLastDayOfMonthLabel() {
 
 var PETS_EDEN_WA_LINK = 'https://wa.me/6592277915';
 
+// The WhatsApp message pre-filled when someone taps "Claim via WhatsApp"
+// on the promo popup. Built from the promo text itself, so editing
+// content/promos.json keeps the message in step automatically.
+function promoClaimMessage(promo) {
+  return ("Hi Pets Eden, I'd like to claim the " + promo.amount + ' ' + promo.note + ' offer.')
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;');
+}
+
 function buildPromoModal(key, promo, dateLabel) {
   var overlay = document.createElement('div');
   overlay.className = 'promo-modal-overlay';
@@ -33,7 +43,8 @@ function buildPromoModal(key, promo, dateLabel) {
       '<p class="promo-modal-amount"><span class="promo-modal-amount-badge">' + promo.amount + '</span></p>' +
       '<p class="promo-modal-note">' + promo.note + '</p>' +
       '<p class="promo-modal-valid">' + promo.validPrefix + ' ' + dateLabel + '</p>' +
-      '<a class="btn btn-honey promo-modal-cta" href="' + PETS_EDEN_WA_LINK + '" target="_blank" rel="noopener">' + whatsappIcon + '<span>Claim via WhatsApp</span></a>' +
+      '<a class="btn btn-honey promo-modal-cta" href="' + PETS_EDEN_WA_LINK + '" target="_blank" rel="noopener"' +
+        ' data-wa-msg="' + promoClaimMessage(promo) + '">' + whatsappIcon + '<span>Claim via WhatsApp</span></a>' +
       '<p class="promo-modal-terms">' + promo.termsNote + '</p>' +
     '</div>';
 
