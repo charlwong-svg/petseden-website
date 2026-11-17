@@ -23,8 +23,8 @@ script-src 'self' https://www.googletagmanager.com 'sha256-jYHg7tXSuuVUqjy+JeRT8
 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
 font-src https://fonts.gstatic.com; \
 img-src 'self' data: https://static.wixstatic.com https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; \
-connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com; \
-frame-src https://pets-eden-crm.netlify.app; \
+connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://tagassistant.google.com; \
+frame-src https://pets-eden-crm.netlify.app https://www.googletagmanager.com https://tagassistant.google.com; \
 manifest-src 'self'; \
 base-uri 'self'; \
 form-action 'self'; \
