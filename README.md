@@ -4,7 +4,7 @@
 17 pages rebuilt as static HTML, matching your current URLs exactly:
 
 /  /services-available/  /cat-grooming/  /dog-grooming/  /rabbit-grooming/
-/tartar-removal/  /courses/  /courses-available/  /professioanl-cat-groomer-course/
+/tartar-removal/  /courses/  /courses-available/  /professional-cat-groomer-course/
 /professional-dog-groomer-course/  /professional-rabbit-groomer-course/
 /trainer-profiles/  /professional-toolbox-sets/  /membership/  /franchise/
 /contact-us/  /join-us/

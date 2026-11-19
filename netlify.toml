@@ -65,3 +65,21 @@ base-uri 'self'; \
 form-action 'self'; \
 frame-ancestors 'self'; \
 object-src 'none'"""
+
+# ---------------------------------------------------------------
+# The cat course page used to live at a misspelled address
+# (/professioanl-cat-groomer-course/). It has been renamed, so the old
+# address is permanently redirected: anyone arriving from Google, an old
+# bookmark or a shared link still lands on the right page.
+# ---------------------------------------------------------------
+[[redirects]]
+  from = "/professioanl-cat-groomer-course/*"
+  to = "/professional-cat-groomer-course/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/professioanl-cat-groomer-course"
+  to = "/professional-cat-groomer-course/"
+  status = 301
+  force = true
