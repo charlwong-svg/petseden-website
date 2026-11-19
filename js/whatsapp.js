@@ -23,6 +23,7 @@
     '/book-online1/':                       "Hi Pets Eden, I'd like to make a booking.",
     '/membership/':                         "Hi Pets Eden, I'd like to enquire about membership.",
     '/courses/':                            "Hi Pets Eden, I'd like to enquire about your grooming courses.",
+    '/pet-owner-courses/':                  "Hi Pets Eden, I'd like to enquire about the Pet Owner grooming courses.",
     '/courses-available/':                  "Hi Pets Eden, I'd like to enquire about your professional grooming courses.",
     '/professioanl-cat-groomer-course/':    "Hi Pets Eden, I'd like to enquire about the cat grooming course.",
     '/professional-dog-groomer-course/':    "Hi Pets Eden, I'd like to enquire about the dog grooming course.",

@@ -353,6 +353,7 @@ table.price-table{
 .tick-list li::before{content:"\2713";position:absolute;left:0;color:var(--coral);font-weight:800}
 .form-grid{align-items:start}
 .form-card{scroll-margin-top:90px}
+section[id]{scroll-margin-top:80px}
 .form-card form{margin-top:18px}
 .field{margin:0 0 16px;padding:0;border:0;min-width:0}
 .field label,.field legend{display:block;font-weight:600;font-size:.92rem;margin-bottom:6px;color:var(--ink);padding:0}
