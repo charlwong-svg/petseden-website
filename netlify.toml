@@ -33,7 +33,7 @@ default-src 'none'; \
 script-src 'self' https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://www.google.com.sg 'sha256-jYHg7tXSuuVUqjy+JeRT8vyG97+Spkw5IFHdQEBbmrw='; \
 style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; \
 font-src https://fonts.gstatic.com; \
-img-src 'self' data: https://static.wixstatic.com https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.com.sg; \
+img-src 'self' data: https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://www.google.com https://www.google.com.sg; \
 connect-src 'self' https://www.googletagmanager.com https://*.google-analytics.com https://*.analytics.google.com https://tagassistant.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://pagead2.googlesyndication.com https://ad.doubleclick.net https://www.google.com https://www.google.com.sg; \
 frame-src https://pets-eden-crm.netlify.app https://www.googletagmanager.com https://tagassistant.google.com https://td.doubleclick.net https://bid.g.doubleclick.net; \
 manifest-src 'self'; \

@@ -11,10 +11,10 @@
 
 A floating WhatsApp button (linking to 9227 7915) appears on every page.
 
-Images currently link directly to your existing Wix media CDN (static.wixstatic.com)
-so nothing needed re-uploading yet. **Important:** once you cancel Wix, those image
-links will likely break. Before cancelling Wix, download the images and I can swap
-them to local files — just ask.
+All images are hosted in this repository under `/images/` and served by Netlify.
+Nothing on the site loads from Wix any more, so cancelling the Wix subscription will
+not affect it. Full-resolution originals are kept in the "website pictures" folder on
+Google Drive; the copies here are resized and compressed for the web.
 
 ## Editable content (no code needed)
 Two pieces of content are pulled from JSON files so you can edit them without
