@@ -370,3 +370,10 @@ section[id]{scroll-margin-top:80px}
 .form-card .btn{width:100%;text-align:center}
 .cond[hidden]{display:none}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+
+/* the promo shown inside a page hero, under the main heading */
+.promo-banner.promo-inline{
+  border-radius:16px;max-width:640px;margin:22px auto 0;padding:16px 24px;
+}
+.promo-banner.promo-inline .promo-title{font-size:1.15rem}
+.promo-banner.promo-inline .promo-sub{font-size:.88rem}
