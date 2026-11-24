@@ -371,7 +371,12 @@ section[id]{scroll-margin-top:80px}
 .cond[hidden]{display:none}
 .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
 
-/* a hero showing several photos; the last row stays centred */
-.hero-gallery{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin-top:28px}
-.hero-gallery img{width:calc(33.333% - 10px);aspect-ratio:1/1;object-fit:cover}
-@media (max-width:640px){.hero-gallery img{width:calc(50% - 7px)}}
+/* hero photos cropped to a common shape, for pages whose pictures are portraits */
+.hero-imgs.hero-crop img{aspect-ratio:4/3;object-fit:cover}
+
+/* a row of captioned photos, used to break up a text-heavy section */
+.photo-strip{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:36px}
+.photo-strip figure{margin:0}
+.photo-strip img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.photo-strip figcaption{margin-top:10px;text-align:center;font-size:.9rem;color:var(--ink-soft)}
+@media (max-width:760px){.photo-strip{grid-template-columns:1fr;max-width:420px;margin-left:auto;margin-right:auto}}
