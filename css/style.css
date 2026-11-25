@@ -389,3 +389,12 @@ section[id]{scroll-margin-top:80px}
 .photo-strip img{width:100%;aspect-ratio:4/3;object-fit:cover}
 .photo-strip figcaption{margin-top:10px;text-align:center;font-size:.9rem;color:var(--ink-soft)}
 @media (max-width:760px){.photo-strip{grid-template-columns:1fr;max-width:420px;margin-left:auto;margin-right:auto}}
+
+/* the key terms at the top of a job posting */
+.job-facts{display:grid;grid-template-columns:auto 1fr;gap:8px 18px;margin:18px 0 22px;padding:16px 18px;background:var(--wash,#f4f8fb);border-radius:12px}
+.job-facts dt{font-weight:600;color:var(--ink);white-space:nowrap}
+.job-facts dd{margin:0;color:var(--ink-soft)}
+@media (max-width:560px){
+  .job-facts{grid-template-columns:1fr;gap:2px 0}
+  .job-facts dd{margin-bottom:10px}
+}

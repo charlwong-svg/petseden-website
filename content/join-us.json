@@ -1,31 +1,70 @@
 {
-  "intro": "Pets Eden is searching for dedicated and passionate individuals who love animals as much as we do. For those that thrive in a work environment that revolves around the care of our furry friends, being a part of our dynamic team is a start to an extremely rewarding career. No experience is needed for the traineeship below — your training is paid for by a sponsoring salon, and a full-time job is waiting at the end of it.",
+  "intro": "Current openings at our salon in Bedok. Applications are reviewed as they arrive; we contact shortlisted applicants by phone or WhatsApp.",
   "jobs": [
     {
-      "title": "Groomer in Training — Fully Sponsored, Job Guaranteed",
-      "intro": "Learn professional dog, cat or rabbit grooming without paying a cent in course fees. A sponsoring salon covers your course and pays you an allowance while you train, then takes you on as a full-time groomer on full salary once you qualify. You meet the sponsor and they meet you before either side commits.",
-      "duties_label": "How it works",
+      "title": "Groomer in Training (Full-Time)",
+      "intro": "A sponsored traineeship leading to a permanent position. A sponsoring salon pays your course fees and an allowance while you train with us for three months. On completion you join that salon as a full-time groomer on full salary, under a two-year bond.",
+      "facts": [
+        {
+          "label": "Position",
+          "value": "Groomer in Training"
+        },
+        {
+          "label": "Type",
+          "value": "Full-time traineeship, then full-time employment with the sponsoring salon"
+        },
+        {
+          "label": "Training",
+          "value": "3 months, daily class at Pets Eden, Blk 551 Bedok North Ave 1"
+        },
+        {
+          "label": "Specialisation",
+          "value": "Dog, cat or rabbit grooming — stated at application"
+        },
+        {
+          "label": "Course fees",
+          "value": "Paid in full by the sponsoring salon"
+        },
+        {
+          "label": "During training",
+          "value": "Allowance paid by the sponsoring salon"
+        },
+        {
+          "label": "On completion",
+          "value": "Full-time groomer at the sponsoring salon, on full salary"
+        },
+        {
+          "label": "Bond",
+          "value": "2 years with the sponsoring salon"
+        },
+        {
+          "label": "Experience",
+          "value": "Not required"
+        }
+      ],
+      "duties_label": "Responsibilities",
       "duties": [
-        "Apply below — tell us a bit about yourself and which animal you'd like to train with.",
-        "First interview with Pets Eden, so we can get to know you.",
-        "Second interview with the sponsoring salon — your future employer.",
-        "If both sides are happy: class every day for 3 months, fees and allowance paid by the sponsor.",
-        "You then start work at the sponsor's salon as a full-time groomer, on full salary."
+        "Attend class daily for the full three months of training.",
+        "Learn and practise safe handling, bathing, drying, clipper work, scissoring, and nail and ear care.",
+        "Work on live animals under supervision throughout the course.",
+        "On qualifying, groom clients' pets at the sponsoring salon to its standards and schedule."
       ],
-      "requirements_label": "What we're looking for",
+      "requirements_label": "Requirements",
       "requirements": [
-        "A genuine liking for animals and the patience to handle them gently.",
-        "No grooming experience needed — we teach you from the ground up.",
-        "Able to attend class every day for the full 3 months.",
-        "Willing to commit to a 2-year bond with the sponsoring salon after you qualify."
+        "Comfortable handling animals, and patient with those that are nervous or difficult.",
+        "Available for daily class across the full three-month training period.",
+        "Able to commit to a two-year bond with the sponsoring salon on completion.",
+        "No prior grooming experience or qualification required.",
+        "Physically able to stand for extended periods and lift pets onto a grooming table."
       ],
-      "extra_label": "Good to know",
+      "extra_label": "Selection process",
       "extra": [
-        "There are no course fees for you to pay — the sponsor pays them.",
-        "The exact allowance, salary and bond terms are agreed between you and the sponsor during the process.",
-        "You can train in dog, cat or rabbit grooming; tell us which when you apply."
+        "Submit the application form below.",
+        "First interview with Pets Eden.",
+        "Second interview with the sponsoring salon, which makes the final decision.",
+        "Allowance, salary and bond terms are agreed directly between you and the sponsoring salon before training begins."
       ]
     }
   ],
-  "footnote": "Applying for the traineeship? Use the form below. For anything else, email your resume, portfolio and asking salary to charlwong@gmail.com."
+  "footnote": "To apply for the position above, use the form below. For any other role, email your resume and asking salary to charlwong@gmail.com."
 }

@@ -19,6 +19,14 @@ document.addEventListener('DOMContentLoaded', function () {
           var html = '<div class="job-card">';
           html += '<h3>' + esc(job.title) + '</h3>';
           html += '<p>' + esc(job.intro) + '</p>';
+          // The key terms, listed the way a job posting states them.
+          if (job.facts && job.facts.length) {
+            html += '<dl class="job-facts">';
+            job.facts.forEach(function (f) {
+              html += '<dt>' + esc(f.label) + '</dt><dd>' + esc(f.value) + '</dd>';
+            });
+            html += '</dl>';
+          }
           html += '<h5>' + esc(job.duties_label) + '</h5>' + listHtml(job.duties);
           html += '<h5>' + esc(job.requirements_label) + '</h5>' + listHtml(job.requirements);
           if (job.extra && job.extra.length) {
