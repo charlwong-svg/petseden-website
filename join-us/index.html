@@ -40,7 +40,54 @@
   </div>
   <div class="wrap center" style="margin-top:10px">
     <p class="small-note" id="join-us-footnote"></p>
-    <a class="btn btn-honey" href="mailto:charlwong@gmail.com">Email Your Application</a>
+    <a class="btn btn-outline" href="mailto:charlwong@gmail.com">Email Your Application</a>
+  </div>
+</section>
+
+<section class="section section-alt">
+  <div class="wrap">
+    <div class="card form-card" id="apply">
+      <h3>Apply: Groomer in Training</h3>
+      <p class="small-note">Tell us a little about yourself. We&rsquo;ll contact you if we&rsquo;d like to arrange the first interview.</p>
+      <form name="student-application" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="student-application">
+        <input type="hidden" name="subject" value="NEW STUDENT application - Groomer in Training">
+        <p class="hp" aria-hidden="true"><label>Leave this empty: <input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+
+        <div class="field">
+          <label for="s-name">Full name</label>
+          <input type="text" id="s-name" name="name" required maxlength="100" autocomplete="name">
+        </div>
+        <div class="field">
+          <label for="s-phone">Contact number</label>
+          <input type="tel" id="s-phone" name="phone" required maxlength="30" inputmode="tel" autocomplete="tel">
+        </div>
+        <div class="field">
+          <label for="s-wa">WhatsApp number <span class="hint">(only if different from the contact number)</span></label>
+          <input type="tel" id="s-wa" name="whatsapp" maxlength="30" inputmode="tel">
+        </div>
+        <div class="field">
+          <label for="s-age">Age</label>
+          <input type="number" id="s-age" name="age" required min="15" max="99" inputmode="numeric">
+        </div>
+        <div class="field">
+          <label for="s-course">Which course are you keen on?</label>
+          <select id="s-course" name="course" required>
+            <option value="">Please choose</option>
+            <option>Dog grooming</option>
+            <option>Cat grooming</option>
+            <option>Rabbit grooming</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="s-jobs">Previous employment history</label>
+          <textarea id="s-jobs" name="employment_history" required maxlength="2000" placeholder="Employer / role / how long, most recent first. If you have not worked before, write &quot;none&quot;."></textarea>
+        </div>
+        <label class="check"><input type="checkbox" name="consent" value="yes" required> <span>I agree that Pets Eden may use the details above to contact me about this traineeship.</span></label>
+        <button class="btn btn-honey" type="submit">Submit Application</button>
+      </form>
+    </div>
   </div>
 </section>
 <script src="/js/join-us.js"></script>

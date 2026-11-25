@@ -30,11 +30,10 @@
     '/professional-rabbit-groomer-course/': "Hi Pets Eden, I'd like to enquire about the rabbit grooming course.",
     '/trainer-profiles/':                   "Hi Pets Eden, I'd like to enquire about your grooming courses.",
     '/professional-toolbox-sets/':          "Hi Pets Eden, I'd like to enquire about the professional toolbox sets.",
-    '/sponsorship-program/':                "Hi Pets Eden, I'd like to enquire about the sponsored groomer program.",
-    '/sponsorship-program/thanks/':         "Hi Pets Eden, I'd like to ask about my sponsorship program application.",
+    '/thanks/':                             "Hi Pets Eden, I'd like to ask about the application I just submitted.",
     '/franchise/':                          "Hi Pets Eden, I'd like to enquire about working with Pets Eden.",
     '/contact-us/':                         "Hi Pets Eden, I'd like to enquire about an appointment.",
-    '/join-us/':                            "Hi Pets Eden, I'd like to enquire about job openings."
+    '/join-us/':                            "Hi Pets Eden, I'd like to enquire about the Groomer in Training traineeship."
   };
 
   // Used if a new page is added and nobody updates the list above.

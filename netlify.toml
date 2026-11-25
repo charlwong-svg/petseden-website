@@ -83,3 +83,20 @@ object-src 'none'"""
   to = "/professional-cat-groomer-course/"
   status = 301
   force = true
+
+# ---------------------------------------------------------------
+# The Sponsored Groomer Program page has been split: the student half
+# is now a job posting on Join Us, the sponsor half sits on Partner
+# With Us. Old links land on the student side.
+# ---------------------------------------------------------------
+[[redirects]]
+  from = "/sponsorship-program/thanks/*"
+  to = "/thanks/"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/sponsorship-program/*"
+  to = "/join-us/"
+  status = 301
+  force = true
