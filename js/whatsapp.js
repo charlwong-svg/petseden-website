@@ -33,7 +33,7 @@
     '/thanks/':                             "Hi Pets Eden, I'd like to ask about the application I just submitted.",
     '/franchise/':                          "Hi Pets Eden, I'd like to enquire about working with Pets Eden.",
     '/contact-us/':                         "Hi Pets Eden, I'd like to enquire about an appointment.",
-    '/join-us/':                            "Hi Pets Eden, I'd like to enquire about the Groomer in Training traineeship."
+    '/join-us/':                            "Hi Pets Eden, I'd like to enquire about the Assistant Groomer position."
   };
 
   // Used if a new page is added and nobody updates the list above.

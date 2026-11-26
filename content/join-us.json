@@ -2,67 +2,30 @@
   "intro": "Current openings at our salon in Bedok. Applications are reviewed as they arrive; we contact shortlisted applicants by phone or WhatsApp.",
   "jobs": [
     {
-      "title": "Groomer in Training (Full-Time)",
-      "intro": "A sponsored traineeship leading to a permanent position. A sponsoring salon pays your course fees and an allowance while you train with us for three months. On completion you join that salon as a full-time groomer on full salary, under a two-year bond.",
-      "facts": [
-        {
-          "label": "Position",
-          "value": "Groomer in Training"
-        },
-        {
-          "label": "Type",
-          "value": "Full-time traineeship, then full-time employment with the sponsoring salon"
-        },
-        {
-          "label": "Training",
-          "value": "3 months, daily class at Pets Eden, Blk 551 Bedok North Ave 1"
-        },
-        {
-          "label": "Specialisation",
-          "value": "Dog, cat or rabbit grooming — stated at application"
-        },
-        {
-          "label": "Course fees",
-          "value": "Paid in full by the sponsoring salon"
-        },
-        {
-          "label": "During training",
-          "value": "Allowance paid by the sponsoring salon"
-        },
-        {
-          "label": "On completion",
-          "value": "Full-time groomer at the sponsoring salon, on full salary"
-        },
-        {
-          "label": "Bond",
-          "value": "2 years with the sponsoring salon"
-        },
-        {
-          "label": "Experience",
-          "value": "Not required"
-        }
-      ],
-      "duties_label": "Responsibilities",
+      "title": "Assistant Groomer (Full-Time)",
+      "intro": "We're looking for an animal-loving assistant groomer to join our team — no experience needed, as we'll train you from the ground up!",
+      "duties_label": "What you'll do:",
       "duties": [
-        "Attend class daily for the full three months of training.",
-        "Learn and practise safe handling, bathing, drying, clipper work, scissoring, and nail and ear care.",
-        "Work on live animals under supervision throughout the course.",
-        "On qualifying, groom clients' pets at the sponsoring salon to its standards and schedule."
+        "Bathe, dry and brush dogs, cats and rabbits alongside our senior groomers",
+        "Prepare pets for their appointment — leashing, lifting onto the table, keeping them calm",
+        "Learn clipper work, scissoring, nail clipping and ear cleaning as you go",
+        "Keep tools, tables and the grooming room clean and sanitised between pets",
+        "Help the shop run smoothly through the day"
       ],
-      "requirements_label": "Requirements",
+      "requirements_label": "What we're looking for:",
       "requirements": [
-        "Comfortable handling animals, and patient with those that are nervous or difficult.",
-        "Available for daily class across the full three-month training period.",
-        "Able to commit to a two-year bond with the sponsoring salon on completion.",
-        "No prior grooming experience or qualification required.",
-        "Physically able to stand for extended periods and lift pets onto a grooming table."
+        "Genuine love for animals and comfort handling dogs, cats and rabbits of all sizes and temperaments",
+        "Patient and calm, especially with nervous or difficult pets",
+        "Reliable, punctual, and happy working as part of a small team",
+        "Comfortable standing for long stretches and lifting pets onto a grooming table",
+        "No grooming experience needed — a willingness to learn matters more"
       ],
-      "extra_label": "Selection process",
+      "extra_label": "Training & bond:",
       "extra": [
-        "Submit the application form below.",
-        "First interview with Pets Eden.",
-        "Second interview with the sponsoring salon, which makes the final decision.",
-        "Allowance, salary and bond terms are agreed directly between you and the sponsoring salon before training begins."
+        "Full professional grooming training provided, at no cost to you",
+        "Daily classes for the first 3 months, then you join the team as a full-time groomer",
+        "A 2-year bond applies once training is complete, as the course is paid for on your behalf",
+        "Train in dog, cat or rabbit grooming — let us know which you'd prefer when you apply"
       ]
     },
     {
@@ -120,5 +83,5 @@
       ]
     }
   ],
-  "footnote": "To apply for the Groomer in Training position, use the form below. For the Customer Service Associate or Pet Transport Driver roles, email your resume, portfolio and asking salary to charlwong@gmail.com."
+  "footnote": "To apply for the Assistant Groomer position, use the form below. For the Customer Service Associate or Pet Transport Driver roles, email your resume, portfolio and asking salary to charlwong@gmail.com."
 }

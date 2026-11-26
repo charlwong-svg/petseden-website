@@ -47,11 +47,11 @@
 <section class="section section-alt">
   <div class="wrap">
     <div class="card form-card" id="apply">
-      <h3>Application Form &mdash; Groomer in Training</h3>
+      <h3>Application Form &mdash; Assistant Groomer</h3>
       <p class="small-note">All fields marked are required. Shortlisted applicants are contacted by phone or WhatsApp to arrange a first interview.</p>
       <form name="student-application" method="POST" action="/thanks/" data-netlify="true" netlify-honeypot="bot-field">
         <input type="hidden" name="form-name" value="student-application">
-        <input type="hidden" name="subject" value="NEW STUDENT application - Groomer in Training">
+        <input type="hidden" name="subject" value="NEW application - Assistant Groomer">
         <p class="hp" aria-hidden="true"><label>Leave this empty: <input type="text" name="bot-field" tabindex="-1" autocomplete="off"></label></p>
 
         <div class="field">
@@ -71,7 +71,7 @@
           <input type="number" id="s-age" name="age" required min="15" max="99" inputmode="numeric">
         </div>
         <div class="field">
-          <label for="s-course">Which course are you keen on?</label>
+          <label for="s-course">Which would you like to train in?</label>
           <select id="s-course" name="course" required>
             <option value="">Please choose</option>
             <option>Dog grooming</option>
@@ -84,7 +84,7 @@
           <label for="s-jobs">Previous employment history</label>
           <textarea id="s-jobs" name="employment_history" required maxlength="2000" placeholder="Employer / role / how long, most recent first. If you have not worked before, write &quot;none&quot;."></textarea>
         </div>
-        <label class="check"><input type="checkbox" name="consent" value="yes" required> <span>I agree that Pets Eden may use the details above to contact me about this traineeship.</span></label>
+        <label class="check"><input type="checkbox" name="consent" value="yes" required> <span>I agree that Pets Eden may use the details above to contact me about this position.</span></label>
         <button class="btn btn-honey" type="submit">Submit Application</button>
       </form>
     </div>
