@@ -100,3 +100,19 @@ object-src 'none'"""
   to = "/join-us/"
   status = 301
   force = true
+
+# ---------------------------------------------------------------
+# The Partner With Us page used to live at /franchise/, which never
+# matched what it offers. Old links are redirected.
+# ---------------------------------------------------------------
+[[redirects]]
+  from = "/franchise/*"
+  to = "/partner-with-us/:splat"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/franchise"
+  to = "/partner-with-us/"
+  status = 301
+  force = true

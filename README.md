@@ -6,7 +6,7 @@
 /  /services-available/  /cat-grooming/  /dog-grooming/  /rabbit-grooming/
 /tartar-removal/  /courses/  /courses-available/  /professional-cat-groomer-course/
 /professional-dog-groomer-course/  /professional-rabbit-groomer-course/
-/trainer-profiles/  /professional-toolbox-sets/  /membership/  /franchise/
+/trainer-profiles/  /professional-toolbox-sets/  /membership/  /partner-with-us/
 /contact-us/  /join-us/
 
 A floating WhatsApp button (linking to 9227 7915) appears on every page.

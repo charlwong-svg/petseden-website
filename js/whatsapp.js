@@ -31,7 +31,7 @@
     '/trainer-profiles/':                   "Hi Pets Eden, I'd like to enquire about your grooming courses.",
     '/professional-toolbox-sets/':          "Hi Pets Eden, I'd like to enquire about the professional toolbox sets.",
     '/thanks/':                             "Hi Pets Eden, I'd like to ask about the application I just submitted.",
-    '/franchise/':                          "Hi Pets Eden, I'd like to enquire about working with Pets Eden.",
+    '/partner-with-us/':                          "Hi Pets Eden, I'd like to enquire about working with Pets Eden.",
     '/contact-us/':                         "Hi Pets Eden, I'd like to enquire about an appointment.",
     '/join-us/':                            "Hi Pets Eden, I'd like to enquire about the Assistant Groomer position."
   };
