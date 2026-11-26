@@ -8,7 +8,11 @@ document.addEventListener('DOMContentLoaded', function () {
     var header = document.querySelector('.site-header');
     function fitMenu() {
       if (!nav.classList.contains('open')) { nav.style.maxHeight = ''; return; }
-      var below = window.innerHeight - (header ? header.getBoundingClientRect().bottom : 0);
+      // visualViewport is what the phone is actually showing: window.innerHeight
+      // still counts the strip hidden behind Chrome's address bar, which pushed
+      // the last menu items off the screen.
+      var visible = (window.visualViewport && window.visualViewport.height) || window.innerHeight;
+      var below = visible - (header ? header.getBoundingClientRect().bottom : 0);
       nav.style.maxHeight = Math.max(160, below) + 'px';
     }
     toggle.addEventListener('click', function () {
@@ -17,5 +21,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
     window.addEventListener('resize', fitMenu);
     window.addEventListener('orientationchange', fitMenu);
+    if (window.visualViewport) {
+      window.visualViewport.addEventListener('resize', fitMenu);
+      window.visualViewport.addEventListener('scroll', fitMenu);
+    }
   }
 });

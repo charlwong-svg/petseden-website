@@ -99,6 +99,7 @@ nav.main-nav li:hover .submenu, nav.main-nav li:focus-within .submenu{display:bl
     -webkit-overflow-scrolling:touch;
   }
   nav.main-nav>ul{flex-direction:column;padding:10px 20px 18px;gap:0}
+  nav.main-nav.open>ul{padding-bottom:110px}
   .submenu{position:static;display:block;box-shadow:none;border:none;padding-left:14px;margin-top:0}
   nav.main-nav li:hover .submenu, nav.main-nav li:focus-within .submenu{display:block}
 }
