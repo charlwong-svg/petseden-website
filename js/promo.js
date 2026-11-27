@@ -13,7 +13,7 @@ function petsEdenLastDayOfMonthLabel() {
   return lastDay.getUTCDate() + ' ' + monthNames[lastDay.getUTCMonth()] + ' ' + lastDay.getUTCFullYear();
 }
 
-var PETS_EDEN_WA_LINK = 'https://wa.me/6592277915';
+var PETS_EDEN_WA_LINK = 'https://wa.me/6587913150';
 
 // The WhatsApp message pre-filled when someone taps "Claim via WhatsApp"
 // on the promo popup. Built from the promo text itself, so editing

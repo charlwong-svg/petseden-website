@@ -9,7 +9,7 @@
 /trainer-profiles/  /professional-toolbox-sets/  /membership/  /partner-with-us/
 /contact-us/  /join-us/
 
-A floating WhatsApp button (linking to 9227 7915) appears on every page.
+A floating WhatsApp button (linking to 8791 3150) appears on every page.
 
 All images are hosted in this repository under `/images/` and served by Netlify.
 Nothing on the site loads from Wix any more, so cancelling the Wix subscription will
